@@ -1,16 +1,8 @@
-# React + Vite
+# Mind_Reader
+A sleek web-based number guessing game that reads the user's mind using binary logic. Think of a number between 1 and 100, answer a few simple questions, and the app accurately predicts your number
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-> Implemented a binary decomposition algorithm where each set corresponds to a power of 2 (1, 2, 4, 8, 16, 32, 64), allowing the user's number to be reconstructed by summing the flagged bits
 
-Currently, two official plugins are available:
+-> Built an animated starfield background using the HTML5 Canvas API with requestAnimationFrame for smooth 60fps rendering
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-> Designed multi-phase UI flow with CSS keyframe animations, 3D card flip transitions, and a glassmorphism card effect
